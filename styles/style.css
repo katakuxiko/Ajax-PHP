@@ -1,0 +1,179 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.white-nav{
+    background: #ffffff !important;
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: #2E363E;
+    text-transform: uppercase;
+}
+
+.collapse.navbar-collapse {
+    padding-left: 8%;
+}
+
+.login-button{
+    background:#5D6AFB;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.logo{
+    width: 100px;
+}
+
+.up-title{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;
+    color: #2E363E;
+    background: #F2F6FA;
+    border-radius: 5px;
+    padding: 10px 18px;
+}
+
+.title{
+    color: #2E363E;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.flex{
+    display: flex;
+}
+
+.start-button{
+    color:#ffffff;
+    padding: 30px 50px;
+    background: #5D6AFB;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.main-button{
+    color:#ffffff;
+    padding: 30px 50px;
+    background: #5D6AFB;
+    border-radius: 8px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.pages-text{
+    margin: auto 20px;
+    width: 210px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.main-text{
+    font-weight: 400;
+    font-size: 21px;
+    color: #434B53;
+    line-height: 143%;
+}
+
+.head-main-text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.my-btn{
+    color:#ffffff;
+    background: #5D6AFB;
+    padding: 20px 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.catalog-title{
+    color: #2E363E;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.footer{
+    background: #F1F1F1;
+}
+
+.footer-text{
+    color: #7E868E;
+    font-size: 12px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #7E868E;
+    font-size: 12px;
+}
+
+.footer-links{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.number{
+    display: inline-block;
+    background: #5D6AFB;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.num{
+    color: #5D6AFB;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.num-text{
+    font-size: 21px;
+}
+
+.bold-title{
+    font-weight: bold;
+}
+
+.kurs-img{
+    width: 100%;
+}
+.error{
+    color: rgb(0, 0, 0); 
+}
+.succses{
+    color: green;
+}
+.profile{
+    color: black;
+    font-weight: bolder;
+}
+.res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.err{
+    border-bottom: 2px solid red;
+}
+.collapse.navbar-collapse {
+     padding-left: 0%; 
+}
+@media (min-width: 1006px){
+.modal-dialog {
+    max-width: 1000px;
+    margin: 1.75rem auto;
+}
+}
